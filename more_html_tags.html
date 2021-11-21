@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>More html- MF</title>
+        <style>
+            th {
+                border: black 2px solid;
+            }
+            td {
+                border: black 2px solid
+            }
+            table { 
+                border: black 2px solid;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="inicio">More html tags-MF</h1>
+        <h2>Enlace desde texto</h2>
+        <p>Para poner un enlace en un texto deberemos utilizar la etiqueta a, y dentro de esta deberemos poner el texto que queramos que se convierta en un enlace.<br>
+        Por ejemplo: <a href="https://iesgaherrera.com/" target="_blank">Este texto te lleva a la página del instituto.</a></p>
+        <h2>Enlace desde una imagen</h2>
+        <p>Para poner un enlace en una imagen debemos utilizar la etiqueta a y dentro de esta insertar la imagen en la que queramos poner el enlace con la etiqueta img<br>
+        Por ejemplo, la siguiente imagen te llevará a la página oficial de la UEFA.<br>
+        <a href="https://es.uefa.com/" target="_blank"><img src="https://img.uefa.com/imgml/uefaorg/new/logo.png" alt="UEFA"></a></p>
+        <h2>Enlace absoluto desde un texto o imagen</h2>
+        <p>Un enlace absoluto es aquel que nos dirige a una página web ajena a nuestro sitio web. Se insertan igual que otro enlace.<br>
+        Por ejemplo, los enlaces anteriores son absolutos, puesto que te dirigen a una página web diferente al sitio web.</p>
+        <h2>Enlace relativo desde un texto o imagen</h2>
+        <p>Un enlace relativo es aquel que te dirige a una página web alojada en el sitio web en el que se encuentra el enlace. Se insertan igual que otro enlance.<br>
+        Por ejemplo, los enlaces ubicados en el index y al final de cada página web de mi sitio web son relativos.</p>
+        <h2>Enlace que se abre en una ventana nueva</h2>
+        <p>Para que un enlace se abra en una ventana nueva debes utilizar la etiqueta a con el atributo target="_blank".<br>
+           Por ejemplo, si pinchas  <a href="https://es.khanacademy.org/" target="_blank">aqui</a> se te abrirá una nueva ventana con el enlace.
+        </p>
+        <h2>Un enlace interno a un sitio dentro de la misma página</h2>
+        <p>Para insertar un enlace que te direccione a un sitio dentro de la misma página web debes utilizar la etiqueta a con el atributo href="#id". El enlace te direccionará al sitio que hayas definido con la id.<br>
+        Por ejemplo, si pinchas <a href="#inicio">aquí</a>, el enlace te direccionará al principio de la página.    
+        </p>
+        <h2>Insertar una tabla</h2>
+        <p>Para insertar una tabla en tu página web, debes utilizar la etiqueta table. Después, tenemos que utilizar la etiqueta thead (para la cabeza de la tabla) y tbody (para el cuerpo de la tabla). Para añadir lineas, tendremos que utilizar la etiqueta th (para añadir columnas en el encabezado de la tabla) y td (para añadir filas en el cuerpo).<br>
+            Por ejemplo, la siguiente tabla:
+            <table>
+                <thead>
+                    <th>Nombre</th>
+                    <th>Equipo</th>
+                    <th>Dorsal</th>
+                </thead>
+                <tbody>
+                <tr align="center">
+                    <td>Lionel Messi</td>
+                    <td>Paris Saint-Germain</td>
+                    <td>30</td>
+                </tr>
+                <tr align="center">
+                    <td>Cristiano Ronaldo</td>
+                    <td>Manchester United</td>
+                    <td>7</td>
+                </tr>
+                <tr align="center">
+                    <td>Erling Haaland</td>
+                    <td>Borussia Dortmund</td>
+                    <td>9</td>
+                </tr>
+                </tbody>
+            </table>
+        </p>
+        <h2>Comentarios</h2>
+        <p>Para insertar un comentario, debes utilizar la etiqueta !--...--. Los comentarios no los toma en cuenta el navegador. Para ver un comentario debes ver el código de la página web.<br>
+        Por ejemplo: Aqui hay un comentario.
+        <!--Esta página web ha sido creada por Marcos Fernández-->
+        </p>
+        <a href="index.html">Enlace a index</a>
+
+    </body>
+</html>
